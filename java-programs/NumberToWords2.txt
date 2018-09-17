@@ -1,7 +1,7 @@
 Level: Medium
 Create a program called NumberToWords2.
 Program accepts a number between 0 and 1000
-And prints the word for the number. Try to use switch statement.
+And prints the word for the number. 
 Ex:
 Enter number: 500
 five hundred
