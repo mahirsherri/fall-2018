@@ -1,0 +1,13 @@
+Level: easy.
+Create a program called WordToNumbers.
+Program accepts a number between 0 and 10
+in words (like: zero, one, two etc )And prints the number for word. Your program should be able to handle both lowercase,uppercase,mixedcase letters
+Ex:
+Enter word: Five
+5
+
+Enter word: TEN
+10
+
+Enter word: three
+3

@@ -1,0 +1,15 @@
+Level: Easy
+Create a program called NumberToWords.
+Program accepts a number between 0 and 10
+And prints the word for the number. Try to use switch statement.
+Ex:
+Enter number: 5
+five
+
+----------------------------------------
+
+
+
+
+
+
