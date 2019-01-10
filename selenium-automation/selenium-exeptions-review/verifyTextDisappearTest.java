@@ -61,7 +61,7 @@ public class verifyTextDisappearTest extends TestBase {
     public boolean elementDisplayedS(By by) {
         // if the locator mathches the list will not be empty
         // if the locator does not match anything the list will be empty
-        return driver.findElements(by).isEmpty();
+        return !driver.findElements(by).isEmpty();
     }
 
 
