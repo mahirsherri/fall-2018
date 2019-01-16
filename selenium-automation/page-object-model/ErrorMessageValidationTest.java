@@ -10,10 +10,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ErrorMessageValidationTest extends TestBase {
-    HomePage homePage = new HomePage();
 
     @Test
     public void wrongEmailTest(){
+        HomePage homePage = new HomePage();
 
         driver.get("http://secure.smartbearsoftware.com/samples/TestComplete12/WebOrders/Login.aspx");
 
@@ -29,6 +29,7 @@ public class ErrorMessageValidationTest extends TestBase {
 
     @Test
     public void wrongPasswordTest(){
+        HomePage homePage = new HomePage();
 
         driver.get("http://secure.smartbearsoftware.com/samples/TestComplete12/WebOrders/Login.aspx");
         homePage.username.sendKeys("Tester");
@@ -43,6 +44,7 @@ public class ErrorMessageValidationTest extends TestBase {
 
     @Test
     public void blankUsername(){
+        HomePage homePage = new HomePage();
 
         homePage.open();
         homePage.login("", "test");
@@ -54,7 +56,7 @@ public class ErrorMessageValidationTest extends TestBase {
 
 
 // this is just a method which does not do anything
-    @Test
+//    @Test
     public void test(){
         ListingPage nilesLane = new ListingPage();
 
